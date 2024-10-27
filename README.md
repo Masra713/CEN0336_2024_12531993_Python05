@@ -1,4 +1,1 @@
 # CEN0336_2024_12531993_Python05
-ÇÇÇÇÇ
-# LLOJO
-## FUBNNI
