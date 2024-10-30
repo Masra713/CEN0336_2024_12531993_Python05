@@ -1,5 +1,7 @@
 # CEN0336_2024_12531993_Python05
 
+Os exercícios a seguir foram resolvidos a partir de arquivos ".py" e então seus conteúdos foram salvos como arquivos ".txt", dispostos a seguir. O texto fora dos arquivos corresponde com o conteúdo dos arquivos adaptado para a visualização via GitHub.
+
 ## 1. Escreva um script no qual você construa um dicionário de suas coisas favoritas.
 
 [Python05_1.1.txt](https://github.com/user-attachments/files/17569892/Python05_1.1.txt)
