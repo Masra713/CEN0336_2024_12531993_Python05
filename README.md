@@ -1,5 +1,26 @@
 # CEN0336_2024_12531993_Python05
 
+# 1. Escreva um script no qual você construa um dicionário de suas coisas favoritas.
+
+[Python05_1.1.txt](https://github.com/user-attachments/files/17569892/Python05_1.1.txt)
+
+Criação do dicionário:
+
+fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
+
+Conferindo o resultado:
+
+print(fav_dict)
+
+Retorno: {'livro': "Ranger's Apprentice",'música': 'Cabin In The Trees - Trung Kien Nguyen', 'árvore': 'Oak'}
+
+
+
+
+
+[Python05_13.1.txt](https://github.com/user-attachments/files/17569891/Python05_13.1.txt)
+
+
 [Python05_12.1.txt](https://github.com/user-attachments/files/17569903/Python05_12.1.txt)
 
 [Python05_11.1.txt](https://github.com/user-attachments/files/17569902/Python05_11.1.txt)
@@ -22,8 +43,6 @@
 
 [Python05_2.1.txt](https://github.com/user-attachments/files/17569893/Python05_2.1.txt)
 
-[Python05_1.1.txt](https://github.com/user-attachments/files/17569892/Python05_1.1.txt)
 
-[Python05_13.1.txt](https://github.com/user-attachments/files/17569891/Python05_13.1.txt)
 
 
