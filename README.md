@@ -6,95 +6,95 @@ Os exercícios a seguir foram resolvidos a partir de arquivos ".py" e então seu
 
 [Python05_1.1.txt](https://github.com/user-attachments/files/17569892/Python05_1.1.txt)
 
-Criação do dicionário:
+- Criação do dicionário:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
 
-Conferindo o resultado:
+- Conferindo o resultado:
 
 print(fav_dict)
 
-Retorno: {'livro': "Ranger's Apprentice",'música': 'Cabin In The Trees - Trung Kien Nguyen', 'árvore': 'Oak'}
+- Retorno: {'livro': "Ranger's Apprentice",'música': 'Cabin In The Trees - Trung Kien Nguyen', 'árvore': 'Oak'}
 
 
 ## 2. Print o seu livro favorito.
 
 [Python05_2.1.txt](https://github.com/user-attachments/files/17569893/Python05_2.1.txt)
 
-Determinando o dicionário para a busca:
+- Determinando o dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
 
-Encontrando o valor ("Ranger's Apprentice") no dicionário a partir da sua chave ("livro"):
+- Encontrando o valor ("Ranger's Apprentice") no dicionário a partir da sua chave ("livro"):
 
 print(fav_dict["livro"])
 
-Retorno: Ranger's Apprentice
+- Retorno: Ranger's Apprentice
 
 
 ## 3. Print o seu livro favorito, mas use uma variável na chave.
 
 [Python05_3.1.txt](https://github.com/user-attachments/files/17569894/Python05_3.1.txt)
 
-Determinação do dicionário para a busca:
+- Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
 
-Determinação do valor ("livro") como a variável ("fav_thing"):
+- Determinação do valor ("livro") como a variável ("fav_thing"):
 
 fav_thing = "livro"
 
-Encontrando o valor ("Ranger's Apprentice") no dicionário a partir da variável ("fav_thing") representando a chave ("livro"):
+- Encontrando o valor ("Ranger's Apprentice") no dicionário a partir da variável ("fav_thing") representando a chave ("livro"):
 
 print(fav_dict[fav_thing])
 
-Retorno: Ranger's Apprentice
+- Retorno: Ranger's Apprentice
 
 
 ## 4. Agora print a sua árvore favorita.
 
 [Python05_4.1.txt](https://github.com/user-attachments/files/17569895/Python05_4.1.txt)
 
-Determinação do dicionário para a busca:
+- Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
 
-Encontrando o valor ("Oak") no dicionário a partir da sua chave ("árvore"):
+- Encontrando o valor ("Oak") no dicionário a partir da sua chave ("árvore"):
 
 print(fav_dict["árvore"])
 
-Retorno: Oak
+- Retorno: Oak
 
 
 ## 5. Adicione o seu "organismo" favorito ao dicionário. Faça com que "organismo" seja o novo valor da chave fav_thing.
 
 [Python05_5.1.txt](https://github.com/user-attachments/files/17569896/Python05_5.1.txt)
 
-Determinação do dicionário para a busca:
+- Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
 
-Adicionando ao dicionário (fav_dict) a nova chave (organismo) e seu valor (cavalo):
+- Adicionando ao dicionário (fav_dict) a nova chave (organismo) e seu valor (cavalo):
 
 fav_dict["organismo"] = "cavalo"
 
-Confirmando a adição:
+- Confirmando a adição:
 
 print(fav_dict)
 
-Retorno:
+- Retorno:
 
 {'livro': "Ranger's Apprentice", 'música': 'Cabin In The Trees - Trung Kien Nguyen', 'árvore': 'Oak', 'organismo': 'cavalo'}          
 
-Tornando "organismo" o novo valor da chave "fav_thing":
+- Tornando "organismo" o novo valor da chave "fav_thing":
 
 fav_thing = "organismo"
 
-Obtendo o valor da chave "organismo" através da chave "fav_thing":
+- Obtendo o valor da chave "organismo" através da chave "fav_thing":
 
 print(fav_dict[fav_thing])
 
-Retorno:
+- Retorno:
 
 cavalo
 
@@ -103,19 +103,19 @@ cavalo
 
 [Python05_6.1.txt](https://github.com/user-attachments/files/17569897/Python05_6.1.txt)
 
-Determinação do dicionário para a busca:
+- Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak", "organismo" : "cavalo"}
 
-Determinando "fav_thing":
+- Determinando "fav_thing":
 
 fav_thing = "livro"
 
-Pedindo o valor de "livro" no dicionário através da chave "fav_thing":
+- Pedindo o valor de "livro" no dicionário através da chave "fav_thing":
 
 print(fav_dict[fav_thing])
 
-Retorno:
+- Retorno:
 
 Ranger's Apprentice
 
@@ -124,19 +124,19 @@ Ranger's Apprentice
 
 [Python05_7.1.txt](https://github.com/user-attachments/files/17569898/Python05_7.1.txt)
 
-Determinação do dicionário para a busca:
+- Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak", "organismo" : "cavalo"}
 
-Alterando o valor da chave "organismo" para "cachorro":
+- Alterando o valor da chave "organismo" para "cachorro":
 
 fav_dict["organismo"] = "cachorro"
 
-Obtendo o valor da chave "organismo" modificada:
+- Obtendo o valor da chave "organismo" modificada:
 
 print(fav_dict["organismo"])
 
-Retorno:
+- Retorno:
 
 cachorro
 
@@ -145,7 +145,7 @@ cachorro
 
 [Python05_8.1.txt](https://github.com/user-attachments/files/17569899/Python05_8.1.txt)
 
-Determinação do dicionário:
+- Determinação do dicionário:
 
 fav_dict = {"livro" : "Ranger's Apprentice",
             "música" : "Cabin In The Trees - Trung Kien Nguyen",
@@ -153,41 +153,41 @@ fav_dict = {"livro" : "Ranger's Apprentice",
             "organismo" : "cachorro"
             }
 
-Determinando como "fav_thing" o valor da chave "livro" (Ranger's Apprentice):
+- Determinando como "fav_thing" o valor da chave "livro" (Ranger's Apprentice):
 
 fav_thing=fav_dict["livro"]
 
-Obtendo o valor da chave "fav_thing":
+- Obtendo o valor da chave "fav_thing":
 
 print(fav_thing)
 
-Retorno:
+- Retorno:
 
 Ranger's Apprentice
 
-Alterando o valor da chave "livro" para "The Brotherband Chronicles":
+- Alterando o valor da chave "livro" para "The Brotherband Chronicles":
 
 fav_dict["livro"]="The Brotherband Chronicles"
 
-Obtendo o dicionário atualizado:
+- Obtendo o dicionário atualizado:
 
 print(fav_dict)
 
-Retorno:
+- Retorno:
 
 {'livro': 'The Brotherband Chronicles', 'música': 'Cabin In The Trees - Trung Kien Nguyen', 'árvore': 'Oak', 'organismo': 'cachorro'}
 
-Atualizando o valor da chave "fav_thing":
+- Atualizando o valor da chave "fav_thing":
 
 fav_thing=fav_dict["livro"]
 
-*Sem repetir esse comando, o "print" a seguir iria retornar o valor anterior da chave "fav_thing": Ranger's Apprentice, apesar do valor ter sido alterado no dicionário
+- *Sem repetir esse comando, o "print" a seguir iria retornar o valor anterior da chave "fav_thing": Ranger's Apprentice, apesar do valor ter sido alterado no dicionário
 
-Obtendo o valor da chave "livro" a partir da chave "fav_thing":
+- Obtendo o valor da chave "livro" a partir da chave "fav_thing":
 
 print(fav_thing)
 
-Retorno:
+- Retorno:
 
 The Brotherband Chronicles
 
@@ -196,20 +196,25 @@ The Brotherband Chronicles
 
 [Python05_9.1.txt](https://github.com/user-attachments/files/17569900/Python05_9.1.txt)
 
-Determinação do dicionário:
+- Determinação do dicionário:
 
 fav_dict={'livro': 'The Brotherband Chronicles',
-          'música': 'Cabin In The Trees - Trung Kien Nguyen',
-          'árvore': 'Oak',
-          'organismo': 'cachorro'}
 
-Uso do loop "for" para para imprimir cada chave e valor do dicionário:
+'música': 'Cabin In The Trees - Trung Kien Nguyen',
 
-for favoritos in fav_dict: # determinando as chaves do dicionário como "favoritos" 
-    coisas=fav_dict[favoritos] # determinando os valores das chaves "favoritos" como "coisas"
-    print(favoritos,":",coisas) # obtendo cada chave e seu respectivo valor do dicionário "fav_dict"
+'árvore': 'Oak',
 
-Retorno:
+'organismo': 'cachorro'}
+
+- Uso do loop "for" para para imprimir cada chave e valor do dicionário:
+
+for favoritos in fav_dict: # determinando as chaves do dicionário como "favoritos"
+
+coisas=fav_dict[favoritos] # determinando os valores das chaves "favoritos" como "coisas"
+    
+print(favoritos,":",coisas) # obtendo cada chave e seu respectivo valor do dicionário "fav_dict"
+
+- Retorno:
 
 livro : The Brotherband Chronicles
 
@@ -224,36 +229,36 @@ organismo : cachorro
 
 [Python05_10.1.txt](https://github.com/user-attachments/files/17569901/Python05_10.1.txt)
 
-Criação dos dois conjuntos a partir das duas sinteses diferentes:
+- Criação dos dois conjuntos a partir das duas sinteses diferentes:
 
 mySet = set("ATGTGGG") # No caso, o conjunto "mySet" criado por "set()" considera cada letra da chave "ATGTGGG" individualmente
 
 mySet2 = {"ATGCCT"} # Aqui o conjunto "mySet2" criado por chaves "{}" considera a chave "ATGCCT" como um único elemento
 
-Para exemplificar, a união dos dois conjuntos:
+- Para exemplificar, a união dos dois conjuntos:
 
 print(mySet|mySet2)
 
-Retorno (os elementos podem vir em outra ordem):
+- Retorno (os elementos podem vir em outra ordem):
 
 {'T', 'A', 'G', 'ATGCCT'}
 
-Na resposta fornecida, temos como elementos provenientes do conjunto "mySet" os elementos "T", "A" e "G". Podemos ver que suas duplicatas foram removidas
+- Na resposta fornecida, temos como elementos provenientes do conjunto "mySet" os elementos "T", "A" e "G". Podemos ver que suas duplicatas foram removidas
 
-Temos também o elemento "ATGCCT", proveniente do conjunto "mySet2", que apesar de ser formado pelos elementos do conjunto "mySet", aparece por ser considerado um único elemento 
+- Temos também o elemento "ATGCCT", proveniente do conjunto "mySet2", que apesar de ser formado pelos elementos do conjunto "mySet", aparece por ser considerado um único elemento 
 
 
 ## 11. Escreva um script para encontrar a interseção, diferença, união e diferença simétrica entre esses dois conjuntos.
 
 [Python05_11.1.txt](https://github.com/user-attachments/files/17569902/Python05_11.1.txt)
 
-Comjuntos fornecidos:
+- Comjuntos fornecidos:
 
 SetA = {3,14,15,9,26,5,35,9}
 
 SetB = {60,22,14,0,9}
 
-Operações requeridas:
+- Operações requeridas:
 
 print("interseção:", SetA&SetB) # Uso do "&" para a obtenção dos elementos ao mesmo tempo em ambos os conjuntos
 
@@ -265,7 +270,7 @@ print("união:", SetA|SetB) # Uso do "|" para obtenção de todos os elementos e
 
 print("diferênça simétrica:", SetA^SetB) # Uso do "^" para a obtenção dos elementos em "SetA" ou "SetB", mas não em ambos
 
-Retorno:
+- Retorno:
 
 interseção: {9, 14}
 
@@ -282,27 +287,27 @@ diferênça simétrica: {0, 3, 5, 15, 22, 26, 35, 60}
 
 [Python05_12.1.txt](https://github.com/user-attachments/files/17569903/Python05_12.1.txt)
 
-Sequência de DNA fornecida:
+- Sequência de DNA fornecida:
 
 DNA = "GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGAC"
 
-Criação do conjunto com "set()", retornando cada letra que aparece na sequência de DNA, sem suas duplicatas:
+- Criação do conjunto com "set()", retornando cada letra que aparece na sequência de DNA, sem suas duplicatas:
 
 Seq1 = set(DNA)
 
 print(Seq1)
 
-Retorno:
+- Retorno:
 
 {'A', 'C', 'T', 'G'}
 
-Criação do conjunto com "{}", retornando toda a sequência de DNA, pois ela foi colocada como um único elemento:
+- Criação do conjunto com "{}", retornando toda a sequência de DNA, pois ela foi colocada como um único elemento:
 
 Seq2 = {DNA}
 
 print(Seq2)
 
-Retorno:
+- Retorno:
 {'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGAC'}
 
 
@@ -310,77 +315,61 @@ Retorno:
 
 [Python05_13.1.txt](https://github.com/user-attachments/files/17571829/Python05_13.1.txt)
 
-determine os caracteres únicos nesta sequência:
+- determine os caracteres únicos nesta sequência:
 
 SeqDNA = "GAACTCCAAAAATGAAAACATAGTAGCAATCAAAGCATCCCACTATTTTTTGTCTCTCGTTTCATTAGCGTTGTAAATTACTGATACCCTACTATACCTCTACAAGGCCTTTGTCATCTTTTTACTCAAGTGTGAAATCATCACTTATTGTATGAAGGATGAGCTTTCCGTTCGCTAGTTTGCTGAAAAGGCCTTCTGCAATAAGCTCTCTATTATCTTTAAAAAAACCTGGTTCCTGGTCTTCCATTCTGCTAAAAGCTGTAGGGGTTTTATCACGAGATTCCCGTTGGCATTCTGACTTATTAAAAATGCTTACAGAAGAAATGGATTCTTTAAATGGTCAAATTAATACGTGGACAGATAATAATCCTTTATTAGATGAAATTACGAAGCCATACAGAAAATCTTCAACTCGTTTTTTTCATCCGCTTCTTGTACTTCTAATGTCTAGAGCATCAGTAAATGGGGATCCACCGAGTCAGCAACTATTTCAAAGGTACAAACAACTTGCCCGTGTAACAGAATTGATTCATGCTGCCAATATAATTCATATTAATATTGGAGAAGAACAAAGCAACGAACAGATTAAACTTGCAACGTTGGTTGGAGATTATTTACTCGGAAAGGCGTCTGTTGATTTAGCACATTTAGAAAACAACGCTATTACAGAAATTATGGCTTCTGTTATTGCAAACTTAGTTGAAGGGCACTTCGGAAGCCGACAAAATGGCTCTGTTGGTTTGTCAAACGAACGAACCATCCTTCTGCAATCAGCCTTTATGCCAGCAAAGGCATGTTTATGCGCAAGCATATTGAATAACTCATCACAATACATTAATGATGCGTGTTTCAATTATGGAAAATTTCTAGGCTTATCGCTGCAACTGGCCCATAAGCCTGTATCTCCTGACGCCCAAGTTTTGCAAAAGAATAATGACATTTTGAAAACATATGTTGAGAATGCCAAGAGCTCATTGTCTGTTTTCCCCGATATAGAGGCTAAGCAAGCTCTCATGGAAATCGCTAATAGTGTTTCGAAGTAATCGACAGGTATTGTATCCTGGATTAATATTAGGGTGGCTCATGCATGCTCGTGCAATCGTAACAAATATGTCTTTCTTTTACGAATTTTAACGCTTCAATATAAATCATATTTTTCCTCA"
 
-itere sobre cada caractere único e conte o número encontrado na sequência
+- itere sobre cada caractere único e conte o número encontrado na sequência
 
-armazene cada contagem em um dicionário. Exemplo: nt_comp['A'] = 2
+- armazene cada contagem em um dicionário. Exemplo: nt_comp['A'] = 2
 
-quando terminar de contar cada caractere, calcule e relate a composição de nucleotídeos e o conteúdo de GC.
+- quando terminar de contar cada caractere, calcule e relate a composição de nucleotídeos e o conteúdo de GC.
 
-Criação de um dicionário "nt_count":
+- Criação de um dicionário "nt_count":
 
 nt_count={}
 
-Criando o conjunto "unique" a partir da função "set()":
+- Criando o conjunto "unique" a partir da função "set()":
 
 unique = set(SeqDNA)
 
-Determinando os caracteres que aparecem em "SeqDNA", sem suas duplicatas:
+- Determinando os caracteres que aparecem em "SeqDNA", sem suas duplicatas:
 
 print("nucleotídeos únicos na sequência:", unique)
 
-Retorno:
+- Retorno:
 
 nucleotídeos únicos na sequência: {'A', 'C', 'T', 'G'}
 
-Uso do "for" para a iterar sobre cada nucleotídeo único:
+- Uso do "for" para a iterar sobre cada nucleotídeo único:
 
 for nt in unique:
-    count = SeqDNA.count(nt) # Para contar o número em que aparece esse nucleotídeo na SeqDNA
-    nt_count[nt] = count # Adicionando a contagem no dicionário criado anteriormente
 
-Pedindo as chaves (nucleotídeos) e valores (vezes em que aparece) do dicionário:
+count = SeqDNA.count(nt) # Para contar o número em que aparece esse nucleotídeo na SeqDNA
+    
+nt_count[nt] = count # Adicionando a contagem no dicionário criado anteriormente
+
+- Pedindo as chaves (nucleotídeos) e valores (vezes em que aparece) do dicionário:
 
 print("vezes que aparecem cada nucleotídeo:", nt_count)
 
-Retorno:
+- Retorno:
 
 vezes que aparecem cada nucleotídeo: {'A': 360, 'C': 227, 'T': 370, 'G': 206}
 
-Contando o conteúdo de GC (em porcentagem):
+- Contando o conteúdo de GC (em porcentagem):
 
 conteudo_CG = 100 * (nt_count["C"] + nt_count["G"]) / (nt_count["A"] + nt_count["T"] + nt_count["C"] + nt_count["G"])
 
-Também poderia ser realizado por:
+- Também poderia ser realizado por:
 
 conteudo_CG = ((SeqDNA.count("C") + SeqDNA.count("G")) / (SeqDNA.count("A") + SeqDNA.count("T") + SeqDNA.count("C") + SeqDNA.count("G")))*100
 
-Imprimindo o resultado:
+- Imprimindo o resultado:
 
 print("conteúdo CG (%):", conteudo_CG)
 
-Retorno:
+- Retorno:
 
 conteúdo CG (%): 37.23129836629407
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
