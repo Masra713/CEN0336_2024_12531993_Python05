@@ -1,10 +1,8 @@
 # CEN0336_2024_12531993_Python05
 
-Os exercícios a seguir foram resolvidos a partir de arquivos ".py" e então seus conteúdos foram salvos como arquivos ".txt", dispostos a seguir. O texto fora dos arquivos corresponde com o conteúdo dos arquivos adaptado para a visualização via GitHub.
+O texto a seguir corresponde com o conteúdo dos arquivos adaptado para a visualização via GitHub.
 
 ## 1. Escreva um script no qual você construa um dicionário de suas coisas favoritas.
-
-[Python05_1.1.txt](https://github.com/user-attachments/files/17569892/Python05_1.1.txt)
 
 - Criação do dicionário:
 
@@ -19,8 +17,6 @@ print(fav_dict)
 
 ## 2. Print o seu livro favorito.
 
-[Python05_2.1.txt](https://github.com/user-attachments/files/17569893/Python05_2.1.txt)
-
 - Determinando o dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
@@ -33,8 +29,6 @@ print(fav_dict["livro"])
 
 
 ## 3. Print o seu livro favorito, mas use uma variável na chave.
-
-[Python05_3.1.txt](https://github.com/user-attachments/files/17569894/Python05_3.1.txt)
 
 - Determinação do dicionário para a busca:
 
@@ -53,8 +47,6 @@ print(fav_dict[fav_thing])
 
 ## 4. Agora print a sua árvore favorita.
 
-[Python05_4.1.txt](https://github.com/user-attachments/files/17569895/Python05_4.1.txt)
-
 - Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
@@ -67,8 +59,6 @@ print(fav_dict["árvore"])
 
 
 ## 5. Adicione o seu "organismo" favorito ao dicionário. Faça com que "organismo" seja o novo valor da chave fav_thing.
-
-[Python05_5.1.txt](https://github.com/user-attachments/files/17569896/Python05_5.1.txt)
 
 - Determinação do dicionário para a busca:
 
@@ -101,8 +91,6 @@ cavalo
 
 ## 6. Obtenha um valor da linha de comando para fav_thing e print o valor desse item do dicionário. Talvez você queira imprimir todas as chaves para o usuário, para que eles saibam o que escolher. Dê uma olhada em input(). Aqui está um link (https://www.tutorialspoint.com/python/python_files_io.htm).
 
-[Python05_6.1.txt](https://github.com/user-attachments/files/17569897/Python05_6.1.txt)
-
 - Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak", "organismo" : "cavalo"}
@@ -122,8 +110,6 @@ Ranger's Apprentice
 
 ## 7. Altere o valor do seu organismo favorito.
 
-[Python05_7.1.txt](https://github.com/user-attachments/files/17569898/Python05_7.1.txt)
-
 - Determinação do dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak", "organismo" : "cavalo"}
@@ -142,8 +128,6 @@ cachorro
 
 
 ## 8. Obtenha fav_thing da linha de comando e um novo valor para essa chave. Altere o valor com o valor inserido pelo usuário.
-
-[Python05_8.1.txt](https://github.com/user-attachments/files/17569899/Python05_8.1.txt)
 
 - Determinação do dicionário:
 
@@ -194,8 +178,6 @@ The Brotherband Chronicles
 
 ## 9. Use um loop for para imprimir cada chave e valor do dicionário.
 
-[Python05_9.1.txt](https://github.com/user-attachments/files/17569900/Python05_9.1.txt)
-
 - Determinação do dicionário:
 
 fav_dict={'livro': 'The Brotherband Chronicles',
@@ -227,8 +209,6 @@ organismo : cachorro
 
 ## 10. Crie um conjunto usando as duas sintaxes diferentes para criar um conjunto, myset = set() e myset2 = {}. Qual é a diferença? Importa como você cria o conjunto?
 
-[Python05_10.1.txt](https://github.com/user-attachments/files/17569901/Python05_10.1.txt)
-
 - Criação dos dois conjuntos a partir das duas sinteses diferentes:
 
 mySet = set("ATGTGGG") # No caso, o conjunto "mySet" criado por "set()" considera cada letra da chave "ATGTGGG" individualmente
@@ -249,8 +229,6 @@ print(mySet|mySet2)
 
 
 ## 11. Escreva um script para encontrar a interseção, diferença, união e diferença simétrica entre esses dois conjuntos.
-
-[Python05_11.1.txt](https://github.com/user-attachments/files/17569902/Python05_11.1.txt)
 
 - Comjuntos fornecidos:
 
@@ -285,8 +263,6 @@ diferênça simétrica: {0, 3, 5, 15, 22, 26, 35, 60}
 
 ## 12. Se você criar um conjunto usando uma sequência de DNA, o que você obterá? Tente com esta sequência:
 
-[Python05_12.1.txt](https://github.com/user-attachments/files/17569903/Python05_12.1.txt)
-
 - Sequência de DNA fornecida:
 
 DNA = "GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGAC"
@@ -312,8 +288,6 @@ print(Seq2)
 
 
 ## 13. Composição de Nucleotídeos. Escreva um script que:
-
-[Python05_13.1.txt](https://github.com/user-attachments/files/17571829/Python05_13.1.txt)
 
 - determine os caracteres únicos nesta sequência:
 
