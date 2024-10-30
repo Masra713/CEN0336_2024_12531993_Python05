@@ -23,7 +23,7 @@ Determinando o dicionário para a busca:
 
 fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
 
-Encontrando o valor ("Ranger's Apprentice") no dicionário a partir da sua chave ("livro")
+Encontrando o valor ("Ranger's Apprentice") no dicionário a partir da sua chave ("livro"):
 
 print(fav_dict["livro"])
 
@@ -49,10 +49,52 @@ print(fav_dict[fav_thing])
 Retorno: Ranger's Apprentice
 
 
+## 4. Agora print a sua árvore favorita.
+
+[Python05_4.1.txt](https://github.com/user-attachments/files/17569895/Python05_4.1.txt)
+
+Determinação do dicionário para a busca:
+
+fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
+
+Encontrando o valor ("Oak") no dicionário a partir da sua chave ("árvore"):
+
+print(fav_dict["árvore"])
+
+Retorno: Oak
 
 
+## 5. Adicione o seu "organismo" favorito ao dicionário. Faça com que "organismo" seja o novo valor da chave fav_thing.
 
+[Python05_5.1.txt](https://github.com/user-attachments/files/17569896/Python05_5.1.txt)
 
+Determinação do dicionário para a busca:
+
+fav_dict = {"livro" : "Ranger's Apprentice","música" : "Cabin In The Trees - Trung Kien Nguyen","árvore" : "Oak"}
+
+Adicionando ao dicionário (fav_dict) a nova chave (organismo) e seu valor (cavalo):
+
+fav_dict["organismo"] = "cavalo"
+
+Confirmando a adição:
+
+print(fav_dict)
+
+Retorno:
+
+{'livro': "Ranger's Apprentice", 'música': 'Cabin In The Trees - Trung Kien Nguyen', 'árvore': 'Oak', 'organismo': 'cavalo'}          
+
+Tornando "organismo" o novo valor da chave "fav_thing":
+
+fav_thing = "organismo"
+
+Obtendo o valor da chave "organismo" através da chave "fav_thing":
+
+print(fav_dict[fav_thing])
+
+Retorno:
+
+cavalo
 
 
 
@@ -73,9 +115,7 @@ Retorno: Ranger's Apprentice
 
 [Python05_6.1.txt](https://github.com/user-attachments/files/17569897/Python05_6.1.txt)
 
-[Python05_5.1.txt](https://github.com/user-attachments/files/17569896/Python05_5.1.txt)
 
-[Python05_4.1.txt](https://github.com/user-attachments/files/17569895/Python05_4.1.txt)
 
 
 
