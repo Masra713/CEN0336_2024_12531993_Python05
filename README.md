@@ -1,4 +1,4 @@
-[Python05_12.1.txt](https://github.com/user-attachments/files/17571820/Python05_12.1.txt)[Python05_13.1.txt](https://github.com/user-attachments/files/17571769/Python05_13.1.txt)# CEN0336_2024_12531993_Python05
+# CEN0336_2024_12531993_Python05
 
 ## 1. Escreva um script no qual você construa um dicionário de suas coisas favoritas.
 
